@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top right, #42f1ff, #4273ff 30%, #5042ff 60%);
+    height: 100vh;
+}
+
+.right-click-content{
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.menu{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.218);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.66);
+    overflow: hidden;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-bottom: 0.9rem;
+    font-family: sans-serif;
+    width: 100%;
+    height: fit-content;
+}
+
+.menu li:hover {
+    background-color: #4274ff5d;
+}
+
+.menu a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(221, 218, 218);
+    column-gap: 0.5rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 0.8rem;
+}
+
+.menu svg{
+    width: 1.3rem;
+    height: 1.6rem;
+}
+
+.menu .delete{
+    margin-bottom: 0;
+}
+
+.menu .deletee:hover{
+    color: rgba(255, 0, 0, 0.603);
+}
+
+.menu .download:hover{
+    color: rgb(246, 255, 0);
+}
+
+.menu .copy:hover{
+    color: rgb(0, 38, 255);
+}
+
+.menu .copy-link-address:hover{
+    color: rgb(0, 255, 204);
+}
+
+.menu .rname:hover{
+    color: rgb(0, 255, 8);
+}
+
+.menu .share:hover{
+    color: rgb(102, 0, 255);
+}
